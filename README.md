@@ -88,6 +88,9 @@ You are tasked with creating a **full-stack application** for managing users. Th
        - Number
        - City
        - Postal Code
+       - Google Maps Integration:
+          - Include a Google Maps component where users can either type their address (autocomplete) or select a location on the map.
+          - When a location is selected, the form fields for the address should be automatically populated.
      - **Profile Picture**:
        - Allow the user to upload an image file (e.g., `.jpg`, `.png`).
        - Use a library like **Multer** on the backend to upload the image and save its URL in the database.
